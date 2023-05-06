@@ -1,0 +1,21 @@
+.loading-bar {
+    border-bottom: 3px solid var(--bs-gray-500);
+    border-radius: 5px;
+}
+
+.loading-bar::after {
+    z-index: 10;
+    content: '';
+    display: block;
+    width: 35%;
+    border-bottom: 3px solid #167BD1;
+    border-radius: 5px;
+    position: absolute;
+    animation: loader ease-in-out 1.5s infinite;
+}
+
+@keyframes loader {
+    0% { left: 0; }
+    50% { left: 65% }
+    100% { left: 0; }
+}

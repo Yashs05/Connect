@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #E8F3FD;
+}
+
+a {
+    color: initial;
+}
+
+.btn-default-revert {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: unset;
+}
+
+
+/* Media */
+@media screen and (max-width: 1300px) {
+    .login-home-main {
+        padding-inline-start: 7rem !important;
+    }
+
+    .login-home-people-btn {
+        margin-inline-end: 7rem !important;
+    }
+
+    .login-container,
+    .register-container,
+    .account-delete-container {
+        width: 40% !important;
+    }
+
+    .people-container,
+    .connections-container,
+    .profile-container,
+    .profile-form-container,
+    .account-container {
+        padding: 0 15rem !important;
+    }
+
+    .post-container {
+        padding: 0 20rem !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .top-navbar {
+        padding: 0 3rem !important;
+    }
+
+    .login-home-main {
+        padding-inline-start: 3rem !important;
+    }
+
+    .login-home-people-btn {
+        margin-inline-end: 3rem !important;
+    }
+
+    .form-container {
+        width: 90% !important;
+    }
+
+    .people-container,
+    .profile-container,
+    .profile-form-container {
+        padding: 0 3rem !important;
+    }
+
+    .post-container {
+        padding: 0 15rem !important;
+    }
+
+    .connections-container, .account-container {
+        padding: 0 10rem !important;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .login-container,
+    .register-container,
+    .account-delete-container {
+        width: 60% !important;
+    }
+
+    .post-container {
+        padding: 0 10rem !important;
+    }
+
+    .connections-container,
+    .profile-form-container,
+    .account-container {
+        padding: 0 5rem !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .login-home-main {
+        width: 100% !important;
+        padding: 0 3rem !important;
+        justify-content: center !important;
+    }
+
+    .form-container {
+        width: 100% !important;
+    }
+
+    .login-home-people-btn {
+        justify-content: center !important;
+    }
+
+    .post-container,
+    .connections-container,
+    .profile-container,
+    .profile-form-container,
+    .account-container {
+        padding: 0 3rem !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .server-error-image {
+        height: auto !important;
+    }
+
+    .fs-medium {
+        font-size: small !important;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+    }
+
+    .alert {
+        padding: 0.75rem !important;
+        font-size: 0.9rem;
+        width: max-content;
+    }
+
+    .top-navbar {
+        padding: 0 1rem !important;
+        font-size: 0.85rem !important;
+    }
+
+    .navbar-logo {
+        width: 7rem;
+        height: 1rem;
+    }
+
+    .navbar-profile-btn {
+        padding-left: 0% !important;
+    }
+
+    .login-home-main {
+        padding: 0 1rem !important;
+    }
+
+    .login-home-people-container {
+        width: 100% !important;
+    }
+
+    .login-home-people-btn {
+        margin: 0 !important;
+    }
+
+    .login-container,
+    .register-container,
+    .account-delete-container {
+        width: 75% !important;
+    }
+
+    .people-container,
+    .post-container,
+    .connections-container,
+    .profile-container,
+    .profile-form-container,
+    .account-container {
+        padding: 0 1rem !important;
+        font-size: 0.9rem;
+    }
+
+    .mb-mobile {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .social-rows {
+        display: block !important;
+        margin-bottom: 0 !important;
+    }
+
+    .social-columns {
+        margin-bottom: 0.75rem !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        margin-bottom: 5rem;
+    }
+
+    .main-alert {
+        bottom: 75px !important;
+    }
+
+    .top-navbar-ul-mobile {
+        justify-content: space-evenly;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        border-top: 2px solid var(--bs-gray-500);
+    }
+
+    .top-navbar-ul::after {
+        display: none;
+    }
+
+    .navbar-image-btn {
+        margin: 1rem 0;
+    }
+
+    #top-navbar-ul li a {
+        padding: 0.75rem 1rem !important;
+    }
+
+    .profile-top-section {
+        flex-direction: column !important;
+    }
+
+    .profile-top-bio {
+        align-items: center !important;
+    }
+
+    .profile-card, .account-cards {
+        padding: 1rem 0.75rem !important;
+    }
+
+    .confirm-alert {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .confirm-alert > span:first-child {
+        margin-bottom: 0.5rem;
+    }
+
+    .confirm-alert div {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end !important;
+    }
+
+    .delete-profile-btn {
+        font-size: 0.9rem !important;
+    }
+
+    .account-image {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    .accept-request-btn {
+        padding: 15px 9px !important;
+        border-radius: 50% !important;
+    }
+
+    .accept-request-icon, .reject-request-icon {
+        display: initial !important;
+        margin-right: 0 !important;
+        font-size: 1.2rem !important;
+    }
+
+    .request-accept-span, .request-reject-span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .login-container,
+    .register-container,
+    .account-delete-container {
+        width: 100% !important;
+        margin: 3rem 0rem !important;
+    }
+
+    .login-form-container,
+    .register-form-container {
+        padding-right: 0.75rem !important;
+        padding-left: 0.75rem !important;
+    }
+
+    .padding-mobile {
+        padding: 0.75rem 0.375rem !important;
+    }
+
+    .people-container,
+    .connections-container,
+    .profile-container,
+    .profile-form-container,
+    .account-container {
+        padding: 0 !important;
+        margin-top: 1.5rem !important;
+    }
+
+    .people-heading,
+    .connections-heading,
+    .people-list-item,
+    .connections-item,
+    .posts-heading,
+    .account-headings,
+    .like-comments-ul {
+        padding: 0 0.75rem !important;
+    }
+
+    .people-form {
+        padding: 0.75rem !important;
+    }
+
+    .people-search-span {
+        display: none;
+    }
+
+    .people-ul,
+    .connections-ul,
+    .connection-context,
+    .account-cards {
+        border-radius: 0 !important;
+    }
+
+    .people-image,
+    .connections-image {
+        width: 50px !important;
+        height: 50px !important;
+        margin-right: 0.75rem !important;
+    }
+
+    .people-link,
+    .connections-link {
+        padding: 0.75rem 0 !important;
+    }
+
+    .post-container {
+        padding: 0 !important;
+    }
+
+    .post-form {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+
+    .post-inputs {
+        flex-wrap: wrap;
+    }
+
+    .post-file-input {
+        margin-right: 0 !important;
+        margin-bottom: 1rem;
+    }
+
+    .post-inputs button {
+        width: 100% !important;
+    }
+
+    .post-items {
+        border: none !important;
+        border-radius: 0 !important;
+        padding: 0 0.75rem !important;
+        font-size: 0.9rem !important;
+    }
+
+    .profile-form-card,
+    .profile-card {
+        border-radius: 0 !important;
+        padding: 0.75rem !important;
+    }
+
+    .post-top-item {
+        padding: 1rem 0 !important;
+    }
+
+    .post-user-image {
+        margin-right: 0.75rem !important;
+    }
+
+    .post-image {
+        min-height: 20rem;
+    }
+
+    .likes-header {
+        margin-right: 0.75rem !important;
+    }
+
+    .like-text {
+        display: none;
+    }
+
+    .fa-thumbs-up {
+        font-size: 1.5rem !important;
+    }
+
+    .comment-input {
+        margin: 0 0.75rem !important;
+    }
+
+    .add-post-btn {
+        border-radius: 50% !important;
+        padding: 0 0.75rem !important;
+    }
+
+    .comment-add-btn-span {
+        display: none;
+    }
+
+    .add-post-icon {
+        display: initial !important;
+    }
+
+    .like-mobile,
+    .comment-mobile {
+        padding: 1.25rem 0 !important;
+    }
+
+    .profile-add-btn {
+        padding: 0.65rem 0.75rem !important;
+    }
+}

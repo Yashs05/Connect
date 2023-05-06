@@ -1,0 +1,26 @@
+.top-navbar {
+    border-bottom: 1px solid #d0d0d0;
+    padding: 0 7rem;
+}
+
+.navbar-items-color {
+    color: var(--bs-gray-700);
+}
+
+.navbar-items-color:hover {
+    color: black;
+}
+
+.profile-link:hover {
+    background-color: unset;
+}
+
+.dropdown-item-hover:hover {
+    text-decoration: underline !important;
+    color: var(--bs-gray-800) !important;
+    background-color: unset;
+}
+
+.active-border {
+    border-bottom: 2px solid #167BD1;
+}
