@@ -243,7 +243,7 @@ router.post('/deleteuser', auth, [
             await User.findByIdAndRemove(req.user.id)
             await Profile.findOneAndRemove({ user: req.user.id })
             await Post.deleteMany({ user: req.user.id })
-            await Connection.findByIdAndRemove(req.user.id)
+            await Connection.findOne({ user: req.user.id })
 
             res.json({ msg: 'Your account has been deleted successfully.' })
         }
