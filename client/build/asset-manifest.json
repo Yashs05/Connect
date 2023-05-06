@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c5fd76a.css",
+    "main.js": "/static/js/main.9fd8d711.js",
+    "static/media/people_find.png": "/static/media/people_find.d107956373952e1e2be9.png",
+    "static/media/server-error.png": "/static/media/server-error.a162661691ee6810a4db.png",
+    "static/media/connect-logo2.png": "/static/media/connect-logo2.e1ca3e8cc4d8925373f7.png",
+    "static/media/connect-logo.png": "/static/media/connect-logo.5a141dcd421acc0958b1.png",
+    "index.html": "/index.html",
+    "main.7c5fd76a.css.map": "/static/css/main.7c5fd76a.css.map",
+    "main.9fd8d711.js.map": "/static/js/main.9fd8d711.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c5fd76a.css",
+    "static/js/main.9fd8d711.js"
+  ]
+}
