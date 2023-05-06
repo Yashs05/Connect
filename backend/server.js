@@ -37,7 +37,7 @@ const server = app.listen(PORT, () => {
 
 const io = new Server(server, {
     cors: true,
-    origins: ['http://192.168.1.8:5000']
+    origins: ['https://connect-f57e.onrender.com']
 })
 
 io.on('connection', socket => {
